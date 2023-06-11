@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Orven Web Designing</title>
+        <link rel="stylesheet" href="logincss.css">
+    </head>
+
+    <body>
+
+        <div id="pre-loader"></div>
+
+        <div class="header">
+            <h1 class="logo">Musicallies</h1>
+
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="information.html">Information</a></li>
+                <li><a href="about.html">About</a></li>
+            </ul>
+        </div>
+
+        <div class="box">
+            <form action="">
+                <h1>Log In</h1>
+                <div class="form-group">
+                    <label for="">Email Id</label>
+                    <input type="text" class="form-control" required>
+                </div>
+                <div class="form-group">
+                    <label for="">Password</label>
+                    <input type="password" class="form-control" required>
+                </div>
+                <input type="submit" class="btn" value="login">
+            </form>
+        </div>
+
+        <script>
+            var loader = document.getElementById("pre-loader");
+
+            window.addEventListener("load", function(){
+                setTimeout(function() {
+                    loader.style.display = "none";
+                    document.getElementById('content').style.display = 'block';
+                }, 2000); //PANG TIMER
+        });
+        </script>
+
+    </body>
+</html>

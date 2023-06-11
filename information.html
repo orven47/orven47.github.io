@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Orven Web Designing</title>
+        <link rel="stylesheet" href="informationcss.css">
+    </head>
+
+    <body>
+
+        <div id="pre-loader"></div>
+
+    <div class="header">
+        <h1 class="logo">Musicallies</h1>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="information.html">Information</a></li>
+            <li><a href="about.html">About</a></li>
+        </ul>
+    </div>
+
+    <div class="cont">
+        <div class="row">
+            <div class="newheader">
+                <br>
+                <h1>WHAT DOES MUSIC TRULLY MEANS?</h1>
+                <br>
+                <p>Vocal or instrumental sounds (or both) combined in such a way as to produce beauty of form, 
+                    harmony, and expression of emotion.</p>
+            </div>
+            <div class="content">
+                <div class="card">
+                    <img src="images/instruments.jpg">
+                    <h4>INSTRUMENTS</h4>
+                    <p>A musical instrument is a device or object used to create or produce sounds and is played for musical purposes.
+                    </p>
+                </div>
+                <div class="card">
+                    <img src="images/melody.jpg">
+                    <h4>MELODY AND HARMONY</h4>
+                    <p>Melody is a sequence of musical notes. While harmony refers to the 
+                        combination of multiple notes to create a pleasing sound.</p>
+                </div>
+                <div class="card">
+                    <img src="images/dynamics2.jpeg">
+                    <h4>DYNAMICS</h4>
+                    <p>Dynamics in music refers to the variations in volume, intensity, and 
+                        expression, adding depth and emotion to the performance.</p>
+                </div>
+                <div class="card">
+                    <img src="images/tempo.jpg">
+                    <h4>RHYTHM AND TEMPO</h4>
+                    <p>Rhythm is the pattern of beats and accents in music, while tempo refers 
+                        to the speed or pace at which the music is played.</p>
+                </div>
+                <div class="card">
+                    <img src="images/chords.jpg">
+                    <h4>CHORDS</h4>
+                    <p>Major, minor, dominant, diminished, augmented—foundations of music, 
+                        forming harmonic progressions that evoke emotions and shape musical compositions.</p>
+                </div>
+            </div>
+        </div>
+        
+        <div class="row">
+            <div class="newheader">
+                <br>
+                <h1>TYPES OF INSTRUMENTS</h1>
+                <br>
+                <p>There are five types of musical instruments: percussion, string, brass, 
+                    woodwind, and keyboard. The categories are based on how the instruments 
+                    produce their respective sounds.</p>
+            </div>
+            <div class="content">
+                <div class="card">
+                    <img src="images/percussion.jpg">
+                    <h4>PERCUSSION</h4>
+                    <p>
+                        Drums, cymbals, tambourines, maracas, bongos, congas, xylophones, 
+                        cowbells, triangles, timpani, gongs, snare, and various other instruments 
+                        create percussion.</p>
+                </div>
+                <div class="card">
+                    <img src="images/string.jpg">
+                    <h4>STRING</h4>
+                    <p>A symphony of melodies, weaving notes with rhythm, evoking emotions and stories, 
+                        creating a harmonious tapestry that resonates deep within the soul.</p>
+                </div>
+                <div class="card">
+                    <img src="images/brass.jpg">
+                    <h4>BRASS</h4>
+                    <p>Brass music refers to a genre of music that features instruments made of brass, 
+                        such as trumpets and trombones.</p>
+                </div>
+                <div class="card">
+                    <img src="images/woodwind.jpg">
+                    <h4>WOODWIND</h4>
+                    <p>Woodwind instruments are a family of musical instruments that produce sound 
+                        by blowing air through a mouthpiece or reed.</p>
+                </div>
+                <div class="card">
+                    <img src="images/keyboard.jpg">
+                    <h4>KEYBOARD</h4>
+                    <p>The keyboard is a versatile musical instrument with a set of keys that produce 
+                        sound when pressed, often used in various genres of music.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        var loader = document.getElementById("pre-loader");
+
+        window.addEventListener("load", function(){
+            setTimeout(function() {
+                loader.style.display = "none";
+                document.getElementById('content').style.display = 'block';
+            }, 2000); //PANG TIMER
+    });
+    </script>
+
+    </body>
+</html>

@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Orven Web Designing</title>
+        <link rel="stylesheet" href="gallerycss.css">
+    </head>
+
+    <body>
+
+        <div id="pre-loader"></div>
+
+        <div class="header">
+            <h1 class="logo">Musicallies</h1>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="information.html">Information</a></li>
+                <li><a href="about.html">About</a></li>
+            </ul>
+        </div>
+
+        <div class="gallery">
+            <div class="text"><b>PHOTO GALLERY</b>
+            <p>“How is it that music can, without words, evoke our laughter, our fears, our highest aspirations?”</p></div>
+            <br>
+            <div class="container1">
+                <div class="box">
+                    <img src="images/a.jpg">
+                </div>
+                <div class="box">
+                    <img src="images/b.png">
+                </div>
+                <div class="box">
+                    <img src="images/i.jpg">
+                </div>
+                <div class="box">
+                    <img src="images/d.jpg">
+                </div>
+            </div>   
+
+            <div class="container1">
+                <div class="box">
+                    <img src="images/e.jpg">
+                </div>
+                <div class="box">
+                    <img src="images/f.jpg">
+                </div>
+                <div class="box">
+                    <img src="images/g.jpg">
+                </div>
+                <div class="box">
+                    <img src="images/h.jpg">
+                </div>
+            </div>   
+
+            <div class="container1">
+                <div class="box">
+                    <img src="images/j.jpg">
+                </div>
+                <div class="box">
+                    <img src="images/k.jpg">
+                </div>
+                <div class="box">
+                    <img src="images/l.jpg">
+                </div>
+                <div class="box">
+                    <img src="images/m.jpg">
+                </div>
+            </div>   
+        </div>
+
+        <script>
+            var loader = document.getElementById("pre-loader");
+
+            window.addEventListener("load", function(){
+                setTimeout(function() {
+                    loader.style.display = "none";
+                    document.getElementById('content').style.display = 'block';
+                }, 2000); //PANG TIMER
+        });
+        </script>
+
+    </body>
+
+</html>
+
